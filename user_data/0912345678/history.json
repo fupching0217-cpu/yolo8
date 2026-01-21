@@ -1,0 +1,378 @@
+[
+  {
+    "id": "d6dcad4e-5508-4bf9-91c0-876ca62886db",
+    "stage_label": "術後第 1 天",
+    "stage_day": 1,
+    "record_date": "2026-01-21",
+    "metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 65,
+      "pore": 50,
+      "texture": 50
+    },
+    "baseline_metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 68,
+      "pore": 50,
+      "texture": 50
+    },
+    "improvement_pct": {
+      "wrinkle": 0.0,
+      "spot": 0.0,
+      "redness": -9.38,
+      "pore": 0.0,
+      "texture": 0.0
+    },
+    "quality": {
+      "ok": true,
+      "score": 88,
+      "brightness": 159,
+      "sharpness": 50,
+      "tags": [
+        "偏模糊"
+      ]
+    },
+    "avg": 51,
+    "img_path": "user_data\\0912345678\\records\\d6dcad4e-5508-4bf9-91c0-876ca62886db.jpg",
+    "symptoms": {
+      "pain": 2,
+      "heat": 2,
+      "swelling": 4,
+      "oozing": false,
+      "fever": false,
+      "triage": "綠燈"
+    },
+    "tasks_done_pct": 60
+  },
+  {
+    "id": "98b7b633-a07c-4b49-bb22-a7661380925c",
+    "stage_label": "術後第 1 天",
+    "stage_day": 1,
+    "record_date": "2026-01-21",
+    "metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 65,
+      "pore": 50,
+      "texture": 50
+    },
+    "baseline_metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 68,
+      "pore": 50,
+      "texture": 50
+    },
+    "improvement_pct": {
+      "wrinkle": 0.0,
+      "spot": 0.0,
+      "redness": -9.38,
+      "pore": 0.0,
+      "texture": 0.0
+    },
+    "quality": {
+      "ok": true,
+      "score": 88,
+      "brightness": 159,
+      "sharpness": 50,
+      "tags": [
+        "偏模糊"
+      ]
+    },
+    "avg": 51,
+    "img_path": "user_data\\0912345678\\records\\98b7b633-a07c-4b49-bb22-a7661380925c.jpg",
+    "symptoms": {
+      "pain": 2,
+      "heat": 2,
+      "swelling": 2,
+      "oozing": false,
+      "fever": false,
+      "triage": "綠燈"
+    },
+    "tasks_done_pct": 0
+  },
+  {
+    "id": "0629aade-bbc5-4138-931f-b5c6f96c9393",
+    "stage_label": "術後第 1 天",
+    "stage_day": 1,
+    "record_date": "2026-01-21",
+    "metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 65,
+      "pore": 50,
+      "texture": 50
+    },
+    "baseline_metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 68,
+      "pore": 50,
+      "texture": 50
+    },
+    "improvement_pct": {
+      "wrinkle": 0.0,
+      "spot": 0.0,
+      "redness": -9.38,
+      "pore": 0.0,
+      "texture": 0.0
+    },
+    "quality": {
+      "ok": true,
+      "score": 88,
+      "brightness": 159,
+      "sharpness": 50,
+      "tags": [
+        "偏模糊"
+      ]
+    },
+    "avg": 51,
+    "img_path": "user_data\\0912345678\\records\\0629aade-bbc5-4138-931f-b5c6f96c9393.jpg",
+    "symptoms": {
+      "pain": 2,
+      "heat": 2,
+      "swelling": 2,
+      "oozing": false,
+      "fever": false,
+      "triage": "綠燈"
+    },
+    "tasks_done_pct": 20
+  },
+  {
+    "id": "07858cae-6cd8-47ba-a882-f6d0e68a9dfa",
+    "stage_label": "術後第 1 天",
+    "stage_day": 1,
+    "record_date": "2026-01-21",
+    "metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 65,
+      "pore": 50,
+      "texture": 50
+    },
+    "baseline_metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 68,
+      "pore": 50,
+      "texture": 50
+    },
+    "improvement_pct": {
+      "wrinkle": 0.0,
+      "spot": 0.0,
+      "redness": -9.38,
+      "pore": 0.0,
+      "texture": 0.0
+    },
+    "quality": {
+      "ok": true,
+      "score": 88,
+      "brightness": 159,
+      "sharpness": 50,
+      "tags": [
+        "偏模糊"
+      ]
+    },
+    "avg": 51,
+    "img_path": "user_data\\0912345678\\records\\07858cae-6cd8-47ba-a882-f6d0e68a9dfa.jpg",
+    "symptoms": {
+      "pain": 2,
+      "heat": 2,
+      "swelling": 2,
+      "oozing": false,
+      "fever": false,
+      "triage": "綠燈"
+    },
+    "tasks_done_pct": 20
+  },
+  {
+    "id": "1b971139-e5ed-41ab-9044-982bbc51dcb5",
+    "stage_label": "術後第 2 天",
+    "stage_day": 2,
+    "record_date": "2026-01-21",
+    "metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 56,
+      "pore": 50,
+      "texture": 50
+    },
+    "baseline_metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 68,
+      "pore": 50,
+      "texture": 50
+    },
+    "improvement_pct": {
+      "wrinkle": 0.0,
+      "spot": 0.0,
+      "redness": -37.5,
+      "pore": 0.0,
+      "texture": 0.0
+    },
+    "quality": {
+      "ok": true,
+      "score": 87,
+      "brightness": 151,
+      "sharpness": 48,
+      "tags": [
+        "偏模糊"
+      ]
+    },
+    "avg": 49,
+    "img_path": "user_data\\0912345678\\records\\1b971139-e5ed-41ab-9044-982bbc51dcb5.jpg",
+    "symptoms": {
+      "pain": 2,
+      "heat": 2,
+      "swelling": 2,
+      "oozing": false,
+      "fever": false,
+      "triage": "綠燈"
+    },
+    "tasks_done_pct": 40
+  },
+  {
+    "id": "2d94b5db-971f-4361-901f-8477b9385220",
+    "stage_label": "術後第 30 天",
+    "stage_day": 30,
+    "record_date": "2026-01-21",
+    "metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 72,
+      "pore": 50,
+      "texture": 50
+    },
+    "baseline_metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 68,
+      "pore": 50,
+      "texture": 50
+    },
+    "improvement_pct": {
+      "wrinkle": 0.0,
+      "spot": 0.0,
+      "redness": 12.5,
+      "pore": 0.0,
+      "texture": 0.0
+    },
+    "quality": {
+      "ok": true,
+      "score": 91,
+      "brightness": 163,
+      "sharpness": 59,
+      "tags": [
+        "偏模糊"
+      ]
+    },
+    "avg": 52,
+    "img_path": "user_data\\0912345678\\records\\2d94b5db-971f-4361-901f-8477b9385220.jpg",
+    "symptoms": {
+      "pain": 2,
+      "heat": 2,
+      "swelling": 2,
+      "oozing": false,
+      "fever": false,
+      "triage": "綠燈"
+    },
+    "tasks_done_pct": 25
+  },
+  {
+    "id": "ee60b099-776a-4cad-8ae5-9f4a51bf90b1",
+    "stage_label": "術後第 1 天",
+    "stage_day": 1,
+    "record_date": "2026-01-21",
+    "metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 65,
+      "pore": 50,
+      "texture": 50
+    },
+    "baseline_metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 68,
+      "pore": 50,
+      "texture": 50
+    },
+    "improvement_pct": {
+      "wrinkle": 0.0,
+      "spot": 0.0,
+      "redness": -9.38,
+      "pore": 0.0,
+      "texture": 0.0
+    },
+    "quality": {
+      "ok": true,
+      "score": 88,
+      "brightness": 159,
+      "sharpness": 50,
+      "tags": [
+        "偏模糊"
+      ]
+    },
+    "avg": 51,
+    "img_path": "user_data/0912345678/records/ee60b099-776a-4cad-8ae5-9f4a51bf90b1.jpg",
+    "symptoms": {
+      "pain": 7,
+      "heat": 2,
+      "swelling": 6,
+      "oozing": false,
+      "fever": false,
+      "triage": "紅燈"
+    },
+    "tasks_done_pct": 0
+  },
+  {
+    "id": "043c081c-1abb-473d-bfc4-caf1fbd34d5f",
+    "stage_label": "術後第 7 天",
+    "stage_day": 7,
+    "record_date": "2026-01-21",
+    "metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 74,
+      "pore": 50,
+      "texture": 50
+    },
+    "baseline_metrics": {
+      "wrinkle": 50,
+      "spot": 40,
+      "redness": 68,
+      "pore": 50,
+      "texture": 50
+    },
+    "improvement_pct": {
+      "wrinkle": 0.0,
+      "spot": 0.0,
+      "redness": 18.75,
+      "pore": 0.0,
+      "texture": 0.0
+    },
+    "quality": {
+      "ok": true,
+      "score": 86,
+      "brightness": 155,
+      "sharpness": 45,
+      "tags": [
+        "偏模糊"
+      ]
+    },
+    "avg": 52,
+    "img_path": "user_data/0912345678/records/043c081c-1abb-473d-bfc4-caf1fbd34d5f.jpg",
+    "symptoms": {
+      "pain": 3,
+      "heat": 2,
+      "swelling": 6,
+      "oozing": false,
+      "fever": false,
+      "triage": "黃燈"
+    },
+    "tasks_done_pct": 20
+  }
+]
