@@ -1289,26 +1289,3 @@ if __name__ == "__main__":
     else:
 
         login_page()
-
-    # ===== 線上客服按鈕 =====
-    st.markdown(
-        '''
-        <div style="margin-top:25px; text-align:center;">
-            <a href="http://localhost:3000/ai-chat.html" target="_blank">
-                <button style="
-                    background-color:#ff6b81;
-                    color:white;
-                    border:none;
-                    padding:14px 30px;
-                    font-size:18px;
-                    border-radius:30px;
-                    cursor:pointer;
-                    box-shadow:0 4px 10px rgba(0,0,0,0.15);
-                ">
-                    💬 有問題？直接聯絡線上客服
-                </button>
-            </a>
-        </div>
-        ''',
-        unsafe_allow_html=True
-    )
