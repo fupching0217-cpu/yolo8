@@ -61,25 +61,25 @@ st.session_state.setdefault("alert_confirm_open", False)
 
 st.markdown(
     """
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
 html, body, [class*="css"] { font-family: 'Noto Sans TC', sans-serif; }
-.stApp { background-color: #fcfcfc; }
-.card { border: 1px solid #e8e8e8; border-radius: 14px; padding: 14px; background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.03); }
-.small { color: #666; font-size: 12px; }
-.hint { background: #f6f9ff; border: 1px solid #e7efff; border-radius: 12px; padding: 10px 12px; margin: 8px 0; color:#333; font-size: 14px; line-height: 1.6; }
-.badge { display:inline-block; padding:2px 8px; border-radius:999px; border:1px solid #e7e7e7; background:#fff; font-size:12px; color:#333; }
-.badge-ok { color: #2e7d32; font-weight: 800; }
-.badge-warn { color: #f57f17; font-weight: 800; }
-.badge-bad { color: #c62828; font-weight: 900; }
-.metric-row { display:flex; gap:12px; flex-wrap:wrap; }
-.metric-box { flex:1; min-width:210px; border:1px solid #eee; border-radius:12px; padding:12px; background:white; }
-.metric-title{ font-size:13px; color:#666; margin-bottom:4px; }
-.metric-val{ font-size:26px; font-weight:900; color:#222; line-height:1.1; }
-.metric-sub{ font-size:12px; color:#666; margin-top:4px; }
-hr { border: none; border-top: 1px solid #eee; margin: 12px 0; }
-#MainMenu {visibility: hidden;} footer {visibility: hidden;}
+.stApp { background:#f6f7fb; }
+
+.card, .photo-card, .panel-card{
+    background:white;
+    border-radius:20px;
+    padding:18px;
+    box-shadow:0 8px 24px rgba(0,0,0,0.06);
+}
+.panel-title{font-weight:700;font-size:16px;margin-bottom:10px;}
+.metric-card{
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    color:white;border-radius:16px;padding:18px;
+}
 </style>
+
 """,
     unsafe_allow_html=True,
 )
@@ -1663,7 +1663,7 @@ with tab1:
         st.markdown("### 1) 前後對比")
         
         # 左右並排佈局：照片 vs 護理建議
-        col_photo, col_info = st.columns([1.5, 1])
+        col_photo, col_info = st.columns([7,5])
         
         # 定義症狀變數（在兩個列中都能使用）
         sym_red = False
@@ -1673,11 +1673,14 @@ with tab1:
         sym_note = ""
         
         with col_photo:
+            st.markdown("<div class='photo-card'>", unsafe_allow_html=True)
             if image_comparison is not None:
                 image_comparison(img1=img_ref, img2=aligned, label1="術前", label2="目前（已校正）", width=600, in_memory=True)
             else:
                 st.image(img_ref, caption="術前", use_container_width=True)
                 st.image(aligned, caption="目前（已校正）", use_container_width=True)
+            
+            st.markdown("</div>", unsafe_allow_html=True)
         
         with col_info:
             st.markdown("#### 症狀回報")
